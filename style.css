@@ -142,8 +142,8 @@ footer a:hover{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #11CD86;
-  color: black;
+  /*background-color: #11CD86; */
+  color: white;
 }
 
 /* slide show */
