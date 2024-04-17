@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- Title -->
+		<title>Profile</title>
+		<meta name="author" content="Madeline M">
+		<!-- Styles -->
+		<link href="styles/search.css" rel="stylesheet" />
+		<nav>
+		    <!-- Navigation -->
+			<a href="index.html"><img src="HomeLogo.png" width="80" height="50" class="HomeLogo"></a>
+			<ul>
+				<il></il>
+				<il><a href="library.html">Library</a></il>
+				<il><a href="search.html">Search</a></il>
+				<il><a href="profile.html"><img src="stadiaReference/Profile-3397574356.png" width="40" height="40"></a></il>
+			</ul>
+		    <!-- make sure the body doesnt start behind the nav bar-->
+        </nav>
+    </head>
+	<body onload="showSlides();"> <!--load first slide when page starts -->
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+			<script type="text/javascript" src="scripts/slideshow.js"></script>
+			<!-- Load Images -->
+			<div class="mySlides fade">
+			<img src="slideshowImages/Skyrim.jpeg">
+			</div>
+		
+			<div class="mySlides fade">
+			<img src="slideshowImages/callOfDuty.jpeg">
+			</div>
+		
+			<div class="mySlides fade">
+			<img src="slideshowImages/arcade.jpeg">
+			</div>
+
+			<div class="mySlides fade">
+			<img src="slideshowImages/AssassinsCreed.jpeg">
+			</div>
+		</div>
+		<!-- call serach fnunction to edit page as you serach -->
+		<div class="search-container">
+			<input type="text" id="textInput" onkeyup="searchFunction()" placeholder="Search..." title="Search for Games">
+		</div>
+		<!-- main section of page -->
+		<!-- flex box -->
+		<section class="content">
+			<!--grid declaration-->
+			<!--one item of grid-->
+			<ul id="List">
+				<!-- list for search function -->
+				<li><a style="display:block" target="_blank" href="">
+					<p>1null</p>
+					<div class="photos">
+						<!-- image -->
+						<img src="gameCardImages/10.jpg" width="250px" height="400px">
+					</div>
+				</a></li>
+				<!-- repeats -->
+				<li><a style="display:block" target="_blank" href="">
+					<p>2null</p>
+					<div class="photos">
+						<!-- image -->
+						<img src="gameCardImages/1.jpg" width="250px" height="400px">
+					</div>
+				</a></li>
+				<li><a style="display:block" target="_blank" href="">
+					<p>3null</p>
+					<div class="photos">
+						<!-- image -->
+						<img src="gameCardImages/5.jpg" width="250px" height="400px">
+					</div>
+				</a></li>
+				<li><a style="display:block" target="_blank" href="">
+					<p>4null</p>
+					<div class="photos">
+						<!-- image -->
+						<img src="gameCardImages/2.jpg" width="250px" height="400px">
+					</div>
+				</a></li>
+				<li><a style="display:block" target="_blank" href="">
+					<p>5null</p>
+					<div class="photos">
+						<!-- image -->
+						<img src="gameCardImages/4.jpg" width="250px" height="400px">
+					</div>
+				</a></li>
+				<li><a style="display:block" target="_blank" href="">
+					<p>6null</p>
+					<div class="photos">
+						<!-- image -->
+						<img src="gameCardImages/8.jpg" width="250px" height="400px">
+					</div>
+				</a></li>
+				<li><a style="display:block" target="_blank" href="">
+					<p>7null</p>
+					<div class="photos">
+						<!-- image -->
+						<img src="gameCardImages/3.jpg" width="250px" height="400px">
+					</div>
+				</a></li>
+				<li><a style="display:block" target="_blank" href="">
+					<p>8null</p>
+					<div class="photos">
+						<!-- image -->
+						<img src="gameCardImages/7.jpg" width="250px" height="400px">
+					</div>
+				</a></li>
+				<li><a style="display:block" target="_blank" href="">
+					<p>9null</p>
+					<div class="photos">
+						<!-- image -->
+						<img src="gameCardImages/9.jpg" width="250px" height="400px">
+					</div>
+				</a></li>
+				<li><a style="display:block" target="_blank" href="">
+					<p>10null</p>
+					<div class="photos">
+						<!-- image -->
+						<img src="gameCardImages/6.jpg" width="250px" height="400px">
+					</div>
+				</a></li>
+		</section>
+		<script src="scripts/search.js"></script>
+	</body>
+</html>
