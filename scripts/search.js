@@ -4,9 +4,9 @@
 
 function searchFunction() {
     var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("textInput");
+    input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
-    ul = document.getElementById("dogList");
+    ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
