@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- commit test -->
 		<meta charset="UTF-8">
 		<!-- Title -->
-		<!-- Add icon? -->
-		<title>Google Stadia</title>
-		<meta name="description" content="Let a computer help you figure out what breed your dog might be!">
+		<title>Profile</title>
 		<meta name="author" content="Madeline M">
 		<!-- Styles -->
-		<!-- make this a collapsed side bar https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp -->
-		<link href="style.css" rel="stylesheet" />
-		<div class="topnav">
-			<!-- Navigation -->
+		<link href="styles/home.css" rel="stylesheet" />
+		<nav>
+		    <!-- Navigation -->
+			<a href="index.html"><img src="HomeLogo.png" width="80" height="50" class="HomeLogo"></a>
 			<ul>
-				<il><a href="index.html"><img src="HomeLogo.png" width="80" height="50"></a></il>
+				<il></il>
 				<il><a href="library.html">Library</a></il>
 				<il><a href="games.html">Search</a></il>
 				<il><a href="profile.html"><img src="stadiaReference/Profile-3397574356.png" width="40" height="40"></a></il>
 			</ul>
-		  </div>
-		  <!-- make sure the body doesnt start behind the nav bar-->
-		<div style="padding:10px;margin-top:30px;background-color:#1e1e1e;height:30px;"></div> 
-	</head>
+		    <!-- make sure the body doesnt start behind the nav bar-->
+        </nav>
+    </head>
 	<body onload="showSlides();"> <!--load first slide when page starts -->
 		<!-- Slideshow container -->
 		<div class="slideshow-container">
@@ -45,25 +41,14 @@
 			</div>
 		</div>
 		<!-- Page Content -->
+		<h1>Your Library</h1>
 		<section class="content">
-			
 			<!-- Note 2 about what to do  -->
-			
+			<img src="gameCardImages/1.jpg" width="250" height="400">
+			<img src="gameCardImages/2.jpg" width="250" height="400">
+			<img src="gameCardImages/3.jpg" width="250" height="400">
+			<img src="gameCardImages/4.jpg" width="250" height="400">
+			<img src="gameCardImages/5.jpg" width="250" height="400">
 		</section>
-		<!-- Footer section - clean cut -->
-		<!--<footer class="pageEnd">
-			<a href="index.html">Home</a><br>
-			<a href="popularDogBreeds.html">Popular</a><br>
-			<a class="active" href="search.html">Dog Breeds</a><br>
-			<a target="_blank" href="http://vision.stanford.edu/aditya86/ImageNetDogs/main.html">About</a><br>
-			<a>Website By Madeline M. Fall 2023</a>
-		</footer> -->
-		<!-- javascript to load and show the image a user uploads -->
-		<script>
-			var loadFile = function(event) {
-   				var image = document.getElementById('dogPhoto');
-    			image.src = URL.createObjectURL(event.target.files[0]);
-    		};
-		</script>
 	</body>
 </html>

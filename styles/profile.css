@@ -1,0 +1,102 @@
+/* colors 
+white: #FFFFFF
+purple: #A41C68
+orange: #FF5C27
+dark grey: #252324
+light grey: #322f31
+*/
+
+body {
+    background-color: #252324;
+    text-align: center;
+    margin: 0px auto;
+    font-family: "Sofia", sans-serif;
+}
+  
+p {
+    color: #f1f1f1;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.25;
+    font-family: "Sofia", sans-serif;
+}
+  
+/* navigation bar */
+/* originally from https://www.w3schools.com/howto/howto_js_topnav.asp as a template */
+/* Add a black background color to the top navigation */
+nav {
+    background-color: #252324;
+    overflow: hidden;
+    position: fixed;
+    top: 0; /* keep navigaiton bar at the top of the page at all times */
+    z-index: 999; /* source: https://stackoverflow.com/questions/21485018/how-do-i-make-my-navigation-bar-remain-on-top-of-page-while-scrolling */
+    width: 100%;
+    display: block;
+    font-family: "Sofia", sans-serif;
+}
+  
+/* Style the links inside the navigation bar */
+nav a {
+    float: left;
+    color: #f1f1f1;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Sofia", sans-serif;
+    margin: 0 auto;
+    font-size: 28px;
+    padding-left: 40px;
+}
+  
+nav ul {
+    margin: 20 auto;
+    padding: 14px 40px;
+    float: right;
+}
+
+.HomeLogo {
+    padding-top: 25px;
+    position: relative center;
+}
+
+.account {
+    margin: auto auto; /*https://stackoverflow.com/questions/2279295/page-will-not-align-center*/
+    padding-top: 180px;
+    align-items: center;
+    background-color: #252324;
+    
+}
+.account p {
+    color: #f1f1f1;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 0.5;
+    font-family: "Sofia", sans-serif;
+}
+
+.settings {
+    margin: 50px 180px; /*https://stackoverflow.com/questions/2279295/page-will-not-align-center*/
+    align-items: center;
+    background-color: #322f31;
+    border-color: #322f31;
+    border-radius: 10px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.settings p {
+    color: #f1f1f1;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    line-height: 0.5;
+    font-family: "Sofia", sans-serif;
+}
