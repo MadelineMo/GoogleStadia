@@ -4,9 +4,9 @@
 
 function searchFunction() {
     var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("textSearch");
+    input = document.getElementById("textInput");
     filter = input.value.toUpperCase();
-    ul = document.getElementById("listUL");
+    ul = document.getElementById("gameList");
     li = ul.getElementsByTagName("li");
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];

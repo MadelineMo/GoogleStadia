@@ -103,7 +103,7 @@ nav ul {
 /*search page */
 /* search function styles */
 #textInput {
-    color: #252324;
+    color: #ddd;
     background-position: 10px 12px;
     background-repeat: no-repeat;
     width: 50%;
@@ -123,7 +123,7 @@ nav ul {
 }
 
 
-#List {
+#gameList {
     list-style-type: none;
     padding-top: 20px;
     padding-bottom: 40px;
