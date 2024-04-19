@@ -100,3 +100,12 @@ nav ul {
     line-height: 0.5;
     font-family: "Sofia", sans-serif;
 }
+
+.settings li {
+    list-style-type: none;
+    margin: auto 0px;
+}
+
+.settings li:hover {
+    background-color: #494548;
+}
