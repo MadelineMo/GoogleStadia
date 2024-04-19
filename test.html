@@ -1,13 +1,12 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<!-- Title -->
-		<title>Search Games</title>
+		<title>Profile</title>
 		<meta name="author" content="Madeline M">
 		<!-- Styles -->
-		<link href="styles/search.css" rel="stylesheet" />
+		<link href="test.css" rel="stylesheet" /> 
 		<nav>
 		    <!-- Navigation -->
 			<a href="index.html"><img src="HomeLogo.png" width="80" height="50" class="HomeLogo"></a>
@@ -19,7 +18,7 @@
 		    <!-- make sure the body doesnt start behind the nav bar-->
         </nav>
     </head>
-	<body onload="showSlides();"> <!--load first slide when page starts -->
+    <body onload="showSlides();"> <!--load first slide when page starts -->
 		<!-- Slideshow container -->
 		<div class="slideshow-container">
 			<script type="text/javascript" src="scripts/slideshow.js"></script>
@@ -40,23 +39,16 @@
 			<img src="slideshowImages/AssassinsCreed.jpeg">
 			</div>
 		</div>
-		<!-- The Modal -->
+        <!-- The Modal -->
         <div id="myModal" class="modal">
 
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <h1>God of War</h1>
-				<img src="gameImages/God-of-War-4.jpeg">
-				<h2>From Santa Monica Studio and creative director Cory Barlog comes a new beginning for God of War. Living as a man outside the shadow of the gods, Kratos must adapt to unfamiliar lands, unexpected threats, and a second chance at being a father. Together with his son Atreus, the pair will venture into the brutal Norse wilds and fight to fulfill a deeply personal quest. </h2>
-				<p>Last Played: DD/MM/YYYY</p>
-				<p>Total hours: --hr</p>
-				<button class="purchaseBtn">Purchased</button>
-				<button class="playBtn">Play</button>
-			</div>
+                <p>Some text in the Modal..</p>
+            </div>
 
         </div>
-				<!-- call serach fnunction to edit page as you serach -->
 		<div class="search-container">
 			<input type="text" id="textInput" onkeyup="searchFunction()" placeholder="Search..." title="Search for Games">
 		</div>
